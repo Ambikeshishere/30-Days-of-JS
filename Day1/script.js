@@ -1,9 +1,3 @@
-
-var createHelloWorld = function() {
-    
-    return function(...args) {
-        return "Hello World";
-    }
-};
-
-const f = createHelloWorld();
+function createHellWorld() {
+    return function() {return "Hello World"}
+}
