@@ -18,4 +18,3 @@ var counter = function(init){
     return{increment, decrement, reset};
 };
 
-counter(5)
