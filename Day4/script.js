@@ -1,5 +1,5 @@
 
-
+alert("AA gya muh utha ke")
 var counter = function(init){
     let presentCount = init;
 
@@ -18,3 +18,4 @@ var counter = function(init){
     return{increment, decrement, reset};
 };
 
+console.log("Kya be shaane")
